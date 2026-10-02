@@ -1,0 +1,208 @@
+{
+  "date": "2026-10-02",
+  "scope": "Pure model and DOM emulation tests only. No real-browser layout, screenshots, device, keyboard or print dialog verification.",
+  "passed": 50,
+  "total": 50,
+  "results": [
+    {
+      "name": "fixture clones are isolated",
+      "passed": true
+    },
+    {
+      "name": "order total = 1020",
+      "passed": true
+    },
+    {
+      "name": "document combines approved same-customer POs",
+      "passed": true
+    },
+    {
+      "name": "duplicate selections are deduplicated",
+      "passed": true
+    },
+    {
+      "name": "reject empty selection",
+      "passed": true
+    },
+    {
+      "name": "reject pending order",
+      "passed": true
+    },
+    {
+      "name": "reject unknown PO",
+      "passed": true
+    },
+    {
+      "name": "reject mixed customers",
+      "passed": true
+    },
+    {
+      "name": "reject unknown document kind",
+      "passed": true
+    },
+    {
+      "name": "reject invalid item quantity 0",
+      "passed": true
+    },
+    {
+      "name": "reject invalid item quantity -1",
+      "passed": true
+    },
+    {
+      "name": "reject invalid item quantity 3",
+      "passed": true
+    },
+    {
+      "name": "reject invalid item quantity 1.5",
+      "passed": true
+    },
+    {
+      "name": "reject invalid item quantity NaN",
+      "passed": true
+    },
+    {
+      "name": "reject invalid item quantity Infinity",
+      "passed": true
+    },
+    {
+      "name": "reject deselecting every item",
+      "passed": true
+    },
+    {
+      "name": "deselected item excluded from totals",
+      "passed": true
+    },
+    {
+      "name": "stock in then out returns to starting quantity with events",
+      "passed": true
+    },
+    {
+      "name": "stock rejects oversell without mutation",
+      "passed": true
+    },
+    {
+      "name": "stock rejects negative without mutation",
+      "passed": true
+    },
+    {
+      "name": "stock rejects fraction without mutation",
+      "passed": true
+    },
+    {
+      "name": "stock rejects missing reason without mutation",
+      "passed": true
+    },
+    {
+      "name": "stock rejects no change without mutation",
+      "passed": true
+    },
+    {
+      "name": "absolute zero-stock adjustment allowed",
+      "passed": true
+    },
+    {
+      "name": "initial dashboard renders correct approved total",
+      "passed": true
+    },
+    {
+      "name": "Lucide icons resolve with no unrendered placeholder",
+      "passed": true
+    },
+    {
+      "name": "week includes prior-month order, month excludes it",
+      "passed": true
+    },
+    {
+      "name": "product search and empty state",
+      "passed": true
+    },
+    {
+      "name": "search survives navigation without leaking into orders",
+      "passed": true
+    },
+    {
+      "name": "product dialog opens and closes",
+      "passed": true
+    },
+    {
+      "name": "document PO picker rejects pending, starts with disabled next",
+      "passed": true
+    },
+    {
+      "name": "PO selection preserves hidden choices during search",
+      "passed": true
+    },
+    {
+      "name": "editor renders totals and valid paper after PO selection",
+      "passed": true
+    },
+    {
+      "name": "numeric validation blocks preview for excess quantity",
+      "passed": true
+    },
+    {
+      "name": "deselect and reselect item updates total",
+      "passed": true
+    },
+    {
+      "name": "notes escape HTML in the document preview",
+      "passed": true
+    },
+    {
+      "name": "save repeated draft updates existing rather than duplicating",
+      "passed": true
+    },
+    {
+      "name": "reopen saved draft preserves quantity and note in preview",
+      "passed": true
+    },
+    {
+      "name": "preview and return keeps edits",
+      "passed": true
+    },
+    {
+      "name": "same PO set warns before duplicate draft creation",
+      "passed": true
+    },
+    {
+      "name": "delivery document omits prices and exposes quantity controls",
+      "passed": true
+    },
+    {
+      "name": "document tabs switch class without losing quantities",
+      "passed": true
+    },
+    {
+      "name": "deselect all prevents continuation",
+      "passed": true
+    },
+    {
+      "name": "reset clears drafts and returns to dashboard",
+      "passed": true
+    },
+    {
+      "name": "product form adjustment updates data and timeline in memory",
+      "passed": true
+    },
+    {
+      "name": "no unresolved icon placeholders in product dialog and all main views",
+      "passed": true
+    },
+    {
+      "name": "all current image paths exist and are actual image bytes",
+      "passed": true
+    },
+    {
+      "name": "app has no external requests or production URL/config",
+      "passed": true
+    },
+    {
+      "name": "CSS includes mobile/tablet/desktop, safe area and reduced motion rules",
+      "passed": true
+    },
+    {
+      "name": "no inline handlers or inline style violates CSP",
+      "passed": true
+    }
+  ]
+}
